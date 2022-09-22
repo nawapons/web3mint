@@ -15,11 +15,11 @@ REACT_APP_RINKEBY_RPC_URL = "get this form rinkeby.infura.io"
 REACT_APP_ETHERSCAN_KEY = "get this form rinkeby.infura.io"
 REACT_APP_PRIVATE_KEY = "get this form metamask"
 ```
-deploy scripts:
+Deploy scripts:
 ```shell
 npx hardhat run scripts/deploy.js
 ```
-run project:
+Run project:
 ```shell
 npm run start
 ```
