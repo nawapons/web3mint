@@ -7,6 +7,7 @@ Tools & modules :
 - Hardhat
 - Charkra-ui
 - Metamask with testnet (Rinkeby)
+
 Before start :
 - create .env file and put some code in it
 ```shell
