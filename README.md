@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# Web3 Mint With React
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is Web3 mint (testnet) , it's the first one i start with web3 by react and js 
 
-Try running some of the following tasks:
-
+Tools & modules :
+- React.js
+- Hardhat
+- Charkra-ui
+- Metamask with testnet (Rinkeby)
+Before start :
+- create .env file and put some code in it
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
+REACT_APP_RINKEBY_RPC_URL = "get this form rinkeby.infura.io"
+REACT_APP_ETHERSCAN_KEY = "get this form rinkeby.infura.io"
+REACT_APP_PRIVATE_KEY = "get this form metamask"
+```
+deploy scripts:
+```shell
 npx hardhat run scripts/deploy.js
+```
+run project:
+```shell
+npm run start
 ```
