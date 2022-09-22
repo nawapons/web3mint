@@ -1,4 +1,4 @@
-# Web3 Mint With React
+# Web3 Mint
 
 This project is Web3 mint (testnet) , it's the first one i start with web3 by react and js 
 
